@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
 	<title>Sign Up</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<style type="text/css">
@@ -9,6 +10,9 @@
 			background: rgb(152,119,220);
 			background: linear-gradient(0deg, rgba(152,119,220,1) 11%, rgba(164,136,221,1) 37%, rgba(189,172,221,1) 67%, rgba(201,189,221,1) 86%);
 			font-family: sans-serif;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
 		}
 		.main{
 			
@@ -103,6 +107,21 @@
 			width: 400px;
 			margin-left: 45px;
 			margin-top: 30px;
+		}
+		@media screen and (min-width: 100px) and (max-width: 199px)
+		{
+		    .button
+		    {
+		        width: 25px;
+		    }
+		}
+
+		@media screen and (min-width: 200px) and (max-width: 299px)
+		{
+		    .button
+		    {
+		        width: 50px;
+		    }
 		}
 
 	</style>
